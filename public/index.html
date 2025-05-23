@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Hangman</h1>
+    <div id="hint"></div>
+    <canvas id="hangman-canvas" width="200" height="250"></canvas>
+    <div id="word"></div>
+    <div>Lives: <span id="lives"></span></div>
+    <div id="letters"></div>
+    <div id="status"></div>
+    <button id="reset">New Game</button>
+  </div>
+
+  <audio id="bg-music" src="audio/bg.mp3" loop></audio>
+  <audio id="wrong-sound" src="audio/wrong.mp3"></audio>
+  <audio id="win-sound" src="audio/win.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

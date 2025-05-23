@@ -1,0 +1,88 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+  min-height: 100vh;
+}
+#game-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+#hint {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+#word {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+#lives {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#letters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+  margin: 1rem 0;
+}
+#letters button {
+  background: #e4e6eb;
+  border: none;
+  border-radius: 6px;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#letters button:disabled {
+  background: #ccc;
+  cursor: default;
+}
+#letters button:hover:not(:disabled) {
+  background: #d8dade;
+}
+#status {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#reset {
+  margin-top: 1rem;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#reset:hover {
+  background: #4178c0;
+}
+canvas {
+  margin: 1rem auto;
+  display: block;
+  background: #f9f9f9;
+  border-radius: 6px;
+}

@@ -1,0 +1,36 @@
+peach|fuzzy stone fruit
+pear|bell-shaped fruit
+kiwi|furry brown outside, green inside
+papaya|orange-fleshed tropical
+plum|juicy purple stonefruit
+cherry|small red stonefruit
+lemon|yellow sour citrus
+lime|small green citrus
+apricot|orange stonefruit
+tiger|striped big cat
+zebra|striped horse relative
+hippopotamus|river-dwelling giant
+rhinoceros|horned heavy mammal
+chimpanzee|closest ape relative
+argentina|home of Patagonia
+southkorea|tech powerhouse
+southafrica|hosted 2010 World Cup
+norway|midnight sun country
+sweden|home of IKEA
+finland|land of a thousand lakes
+ireland|Emerald Isle
+greece|birthplace of democracy
+badminton|shuttlecock racket sport
+tabletennis|ping-pong game
+archery|bow and arrow sport
+fencing|sword fighting sport
+surfing|riding waves on board
+gymnastics|acrobatics sport
+karate|martial art
+judo|Japanese martial art
+rowing|boat-oar racing
+titanic|shipwreck love story
+avatar|blue-skinned alien epic
+gladiator|ancient Rome arena drama
+matrix|cyber-reality action
+casablanca|classic wartime romance
